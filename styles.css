@@ -1,0 +1,162 @@
+body {
+    background-color: #1e1d1d;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(52, 47, 47, 0.879);
+    background-color: #1e1e1e;
+    max-width: 950px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.product-info, .features, .reviews {
+    margin-top: 20px;
+    text-align: left;
+}
+
+h2, h3 {
+    color: #bb86fc;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+li{
+    margin-top: 10px;
+}
+
+blockquote {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #333;
+    border-left: 5px solid #bb86fc;
+}
+
+.download-jdk{
+    text-decoration: none;
+    color:#bb86fc;
+}
+
+.download-jdk:hover{
+    color:#8634e9;
+    transform: scale(0.2);
+    text-decoration: underline;
+}
+
+.download-jdk-block{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.download-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #6200ea;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.qupte-info:hover{
+    box-shadow: 0 0 5px rgba(71, 67, 67, 0.879);
+}
+
+.container:hover{
+    box-shadow: 0 0 20px rgba(71, 67, 67, 0.879);
+}
+
+.download-button:hover {
+    background-color: #3700b3;
+    transform: scale(1.05);
+}
+
+.download-button:active {
+    background-color: #03dac6;
+    transform: scale(0.95);
+}
+
+@media (max-width: 600px) {
+    body {
+        height: auto;
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .download-button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+
+.command-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.command-container code {
+    background-color: #251111;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.command-container button {
+    padding: 10px;
+    background-color: #394149;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.command-container button:hover {
+    background-color: #5509bf;
+}
+
+
+
+.copyable {
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.copyable:hover {
+    transform: scale(1.01);
+    color: #ac99f8;
+}
+
+
+
+
+

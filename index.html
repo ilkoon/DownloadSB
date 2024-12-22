@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Page(SB)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">  
+</head>
+<body>
+    <div class="container">
+        <h1>Приветствуем Вас на странице для установки нашей игры "Морской бой" </h1>
+        <div class="product-info">
+            <h2>Игра "Морской бой"</h2>
+            <p>"Морской бой" — это классическая игра, где два игрока сражаются на морских полях. Каждый игрок располагает на своем игровом поле флот, состоящий из различных кораблей, такие как линкоры, крейсеры, эсминцы и подлодки. Цель игры — потопить все корабли противника, угадать их местоположение и нанести удары по их координатам.</p>
+        </div>
+        <div class="features">
+            <h3>Как поиграть в "Морской бой"</h3>
+            <ul>
+                <li>1: Установите файл (.jar) с игрой</li>
+                <li>2: Для корректной работы игры требуется установленный <a href="https://www.oracle.com/java/technologies/downloads/?er=221886#jdk23-wi" target="_blank" class="download-jdk">JDK<a> (Java Development Kit) последней версии.</li>
+                <li>3: После установки JDK, Вы можете сразу запустить игру. </li>
+                <li>4: Или откройть терминал или PowerShell, перейдити в дерикторию, где находится файл с игрой (Пример: cd C:\Users\<Пользлватель>\Downloads). Затем ввести следующую команду:</li>
+            </ul>
+            <div class="command-container"> 
+                <code id="command">java -jar battle-1.1.0-gui.jar</code>
+                <button onclick="copyCommand()">
+                    Копировать
+                </button>
+            </div>
+        </div>
+        <div class="reviews">
+            <h3>Ссылки</h3>
+            <a href="https://www.oracle.com/java/technologies/downloads/?er=221886#jdk23-wi" target="_blank" class="download-jdk-block"><blockquote class="qupte-info">Установка Java Development Kit: <a href="https://www.oracle.com/java/technologies/downloads/?er=221886#jdk23-wi" target="_blank" class="download-jdk">JDK</a></blockquote></a>
+            <blockquote class="qupte-info" >Контакты: <div id="copyText" class="copyable" onclick="copyToClipboard()">  ilkon1gonfriz@gmail.com </div> </blockquote>
+        </div>
+        <p>Нажмите кнопку для установки игры</p>
+        <a href="battle-1.1.0-gui.jar" class="download-button">Скачать файл</a>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
